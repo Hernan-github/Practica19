@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+</style>
+
+<body>
+    <h2>Practica de escribir con JavaScript</h2>
+    <p id="demo"></p>
+    <button onclick="alertt()">Alert</button>
+    <button onclick="InnerH()">InnerHTML</button>
+    <button onclick="InnerT()">InnerText</button>
+    <button onclick="writhe()">Write</button>
+
+    <script>
+        function alertt(){
+            window.alert("Hola chavales");
+        }
+        function InnerH(){
+            document.getElementById("demo").innerHTML = "<h1>Hello World</h1>";
+        }
+        function InnerT(){
+            document.getElementById("demo").innerText = "Hello World";
+        }
+        function writhe(){
+            document.write("Hello World");
+        }
+        console.log("Hello World");
+    </script>
+</body>
+</html>
